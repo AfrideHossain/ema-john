@@ -13,10 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
-
-body {
+/* restting margin and padding for all */
+* {
   margin: 0;
+  padding: 0;
+}
+body {
   min-width: 320px;
   min-height: 100vh;
 }
