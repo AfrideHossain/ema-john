@@ -1,18 +1,19 @@
 .product {
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 508px;
   border: 1px solid #95a0a7;
   border-radius: 8px;
+  padding: 7px;
 }
 
 .product img {
-  width: 286px;
-  margin: 7px;
+  width: 100%;
+  /* margin: 7px; */
   border-radius: 8px;
 }
 .product-info {
-  margin-left: 14px;
+  margin-left: 7px;
 }
 .product-name {
   font-weight: 400;
@@ -39,6 +40,7 @@
 .btn-cart {
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
   padding: 12px 0;
   outline: 0;
