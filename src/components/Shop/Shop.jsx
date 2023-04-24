@@ -30,6 +30,7 @@ const Shop = () => {
       }
       // console.log(newCartArray);
       setCart(newCartArray);
+      console.log(cart);
     }
   }, [products]);
   const handleAddToCart = (product) => {
